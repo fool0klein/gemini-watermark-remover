@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Google Gemini Watermark Remover | Free AI Image Cleaner</title>
+  <meta name="title" content="Google Gemini Watermark Remover | Free AI Image Cleaner">
+  <meta name="description" content="Remove watermarks from Gemini AI images instantly. Free, 100% client-side, and lossless quality.">
+  <meta name="keywords" content="gemini watermark remover, remove google watermark, ai image cleaner, client-side, free tool, abhin krishna">
+  <meta name="author" content="Abhin Krishna">
+  <meta name="robots" content="index, follow">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Google Gemini Watermark Remover">
+  <meta property="og:description" content="Remove watermarks from Gemini AI images instantly. Free, fast, and lossless.">
+  <meta property="og:image" content="./assets/og-image.jpg">
+  <meta property="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%234E7BF8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 3l-1.9 5.8-5.8 1.9 5.8 1.9 1.9 5.8 1.9-5.8 5.8-1.9-5.8-1.9z'/%3E%3C/svg%3E">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gemini: {
+              blue: '#4E7BF8',
+              purple: '#8E76D6', 
+              red: '#D9505E',
+              orange: '#F29643',
+              yellow: '#F2C455',
+            }
+          },
+          animation: {
+            'gradient-x': 'gradient-x 3s ease infinite',
+          },
+          keyframes: {
+            'gradient-x': {
+              '0%, 100%': { 'background-size': '200% 200%', 'background-position': 'left center' },
+              '50%': { 'background-size': '200% 200%', 'background-position': 'right center' },
+            },
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; }
+    .text-gradient-gemini {
+      background: linear-gradient(to right, #4E7BF8, #D9505E, #F2C455);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hover-instagram:hover { color: #E1306C; transition: color 0.3s; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen selection:bg-gemini-blue selection:text-white">
+
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100">
+    <div class="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <svg class="w-8 h-8 text-gemini-blue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3l-1.9 5.8-5.8 1.9 5.8 1.9 1.9 5.8 1.9-5.8 5.8-1.9-5.8-1.9z"/>
+        </svg>
+        <h1 class="text-xl font-bold text-gray-800">Gemini <span class="text-gradient-gemini">Watermark Remover</span></h1>
+      </div>
+      <nav>
+        <a href="https://github.com/dearabhin" target="_blank" class="text-gray-600 hover:text-gemini-blue transition-colors flex items-center gap-1 font-medium">
+          <iconify-icon icon="mdi:github" width="24"></iconify-icon> GitHub
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow w-full">
+    <section class="py-12 text-center px-4">
+      <h2 class="text-3xl md:text-5xl font-extrabold mb-4 pb-1">
+        <span class="bg-gradient-to-r from-gemini-blue via-gemini-red to-gemini-orange bg-clip-text text-transparent animate-gradient-x">
+          Google Gemini AI Image Watermark Remover
+        </span>
+      </h2>
+      <p class="text-gray-500 mb-8 max-w-xl mx-auto">Client-side processing powered by your browser. Free, fast, and high quality.</p>
+
+      <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-lg p-4 border border-emerald-100">
+        
+        <div id="uploadArea" class="group relative flex flex-col items-center justify-center w-full h-64 border-2 border-dashed border-gray-300 rounded-xl bg-gray-50/50 hover:bg-blue-50/50 hover:border-gemini-blue transition-all cursor-pointer">
+          <div class="flex flex-col items-center justify-center pt-5 pb-6">
+            <svg class="w-12 h-12 text-gray-400 group-hover:text-gemini-blue mb-4 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+            <p class="mb-2 text-lg font-medium text-gray-700 group-hover:text-gemini-blue transition-colors">Click to upload or drag image</p>
+            <p class="text-sm text-gray-400">Supports PNG, JPG, WebP</p>
+          </div>
+          <input type="file" id="fileInput" accept="image/*" class="hidden" />
+        </div>
+
+        <div id="previewSection" class="hidden text-left mt-6 animate-fade-in">
+          <div class="flex flex-col lg:flex-row gap-8">
+            
+            <div class="flex-1 space-y-6 min-w-0">
+                
+                <div class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-200">
+                    <div class="bg-gray-50 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
+                        <div class="flex items-center gap-2">
+                             <span class="w-2.5 h-2.5 rounded-full bg-gray-400"></span>
+                             <h3 class="font-semibold text-gray-700">Original</h3>
+                        </div>
+                        <div class="text-xs font-mono text-gray-500">
+                            <strong>Size:</strong> <span id="originalSize">...</span>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Y5ZmRmZCI+PHJlY3Qgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZjJmMmYyIi8+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNmMmYyZjIiLz48L3N2Zz4=')]">
+                        <img id="originalImage" class="max-w-full max-h-[500px] h-auto rounded shadow-sm object-contain mx-auto" />
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-md overflow-hidden border border-blue-100 ring-2 ring-gemini-blue/20">
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 px-4 py-3 border-b border-blue-100 flex justify-between items-center flex-wrap">
+                        <div class="flex items-center gap-2">
+                             <span class="w-2.5 h-2.5 rounded-full bg-gemini-blue animate-pulse"></span>
+                             <h3 class="font-semibold text-gemini-blue">Processed Result</h3>
+                        </div>
+                        <div class="text-xs font-mono text-right space-x-3">
+                            <span class="text-gray-600"><strong>Size:</strong> <span id="resultSize">...</span></span>
+                            <span class="text-gemini-green font-bold"><strong>Status:</strong> <span id="resultStatus">...</span></span>
+                        </div>
+                    </div>
+                    <div class="p-4 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgZmlsbD0iI2Y5ZmRmZCI+PHJlY3Qgd2lkdGg9IjEwIiBoZWlnaHQ9IjEwIiBmaWxsPSIjZjJmMmYyIi8+PHJlY3QgeD0iMTAiIHk9IjEwIiB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIGZpbGw9IiNmMmYyZjIiLz48L3N2Zz4=')]">
+                        <img id="processedImage" class="max-w-full max-h-[500px] h-auto rounded shadow-sm object-contain mx-auto" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-72 flex-shrink-0">
+                <div class="bg-white rounded-xl shadow-lg border border-gray-100 p-5 sticky top-24">
+                    <h4 class="font-bold text-gray-900 mb-4">Actions</h4>
+                    
+                    <button id="downloadBtn" class="group w-full py-3.5 relative overflow-hidden rounded-xl font-medium mb-3 text-white shadow-lg shadow-gemini-blue/30 hover:shadow-gemini-purple/40 transition-all duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-r from-gemini-blue via-gemini-purple to-gemini-red opacity-100 group-hover:scale-110 transition-transform duration-500"></div>
+                        <div class="relative flex items-center justify-center gap-2">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                            Download
+                        </div>
+                    </button>
+                    
+                    <button id="resetBtn" class="w-full py-3.5 bg-white border border-gray-200 text-gray-600 hover:border-gemini-red hover:text-gemini-red rounded-xl font-medium transition-all duration-300">
+                        Process Another
+                    </button>
+                </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t border-gray-100 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 py-8 text-center">
+      <p class="text-sm text-gray-500">Developed by <span class="font-semibold text-gray-900">Abhin Krishna</span></p>
+      <div class="flex justify-center gap-6 mt-4 text-gray-400">
+        <a href="https://twitter.com/dearabhin" target="_blank" class="hover:text-black hover:scale-110 transition-transform"><iconify-icon icon="line-md:twitter-x" width="24"></iconify-icon></a>
+        <a href="https://instagram.com/abhin.io" target="_blank" class="hover-instagram hover:scale-110 transition-transform"><iconify-icon icon="mdi:instagram" width="24"></iconify-icon></a>
+        <a href="https://github.com/dearabhin" target="_blank" class="hover:text-black hover:scale-110 transition-transform"><iconify-icon icon="mdi:github" width="24"></iconify-icon></a>
+        <a href="https://linkedin.com/in/abhin-krishna" target="_blank" class="hover:text-[#0077b5] hover:scale-110 transition-transform"><iconify-icon icon="mdi:linkedin" width="24"></iconify-icon></a>
+      </div>
+      <p class="text-xs text-gray-400 mt-2">© 2025 Gemini Watermark Remover. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div id="loadingOverlay" class="fixed inset-0 bg-white/90 backdrop-blur-sm z-50 hidden items-center justify-center">
+    <div class="flex flex-col items-center">
+      <div class="w-16 h-16 rounded-full border-4 border-transparent border-t-gemini-blue border-r-gemini-purple border-b-gemini-red animate-spin mb-4"></div>
+      <p class="text-transparent bg-clip-text bg-gradient-to-r from-gemini-blue to-gemini-red font-bold text-lg animate-pulse">Processing...</p>
+    </div>
+  </div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
