@@ -96,4 +96,4 @@ This tool is for **educational and personal use only**.
 ## 🤝 Credits
 
 * Developed by **Abhin Krishna**.
-* Algorithm adapted from [GeminiWatermarkTool](https://github.com/allenk/GeminiWatermarkTool) and [journey-ad](https://github.com/journey-ad/gemini-watermark-remover).
+* Algorithm adapted from [GeminiWatermarkTool](https://github.com/allenk/GeminiWatermarkTool).
